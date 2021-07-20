@@ -1,0 +1,20 @@
+.gifs{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .about {
+    text-align: center;
+    transition: 1.5s ease;
+    color: #ffffff;
+  }
+  
+  .about:hover {
+    cursor: pointer;
+    color: #000;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+  }

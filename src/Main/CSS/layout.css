@@ -1,0 +1,45 @@
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.fade-in {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+/* animations need to be in separate div */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title {
+  text-align: center;
+  transition: 1.5s ease;
+  color: #ffffff;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: #000;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+}
+.desc {
+  transition: 1.5s ease;
+  color: #ffffff;
+}
+
+.desc {
+  cursor: pointer;
+  color: #000;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px;
+}
