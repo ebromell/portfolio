@@ -6,7 +6,7 @@ import Layout from "./Main/Layout";
 function App() {
   return (
     <Switch>
-        <Route exact path="/" >
+        <Route>
           <Layout />
         </Route>
     </Switch>
