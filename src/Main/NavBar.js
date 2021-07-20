@@ -7,7 +7,7 @@ export default function NavBar() {
     <nav>
       <ul>
         <li>
-          <Link to="/portfolio">Home</Link> <Link to="/Contact">Contact Me</Link>{" "}
+          <Link to="/portfolio/">Home</Link> <Link to="/Contact">Contact Me</Link>{" "}
           <Link to="/Projects">Projects</Link>{" "}
           <Link to="/ArtWork">ArtWork</Link>
         </li>
