@@ -14,13 +14,13 @@ function Layout() {
       <h2>
         <NavBar />
         <Switch>
-          <Route path="portfolio/Artwork">
+          <Route path="/Artwork">
             <Artwork />
           </Route>
-          <Route path="portfolio/Projects">
+          <Route path="/Projects">
             <Projects />
           </Route>
-          <Route path="portfolio/Contact">
+          <Route path="/Contact">
             <Contact />
           </Route>
           <Route path="/">
