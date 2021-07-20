@@ -23,7 +23,7 @@ function Layout() {
           <Route path="/Contact">
             <Contact />
           </Route>
-          <Route exact path="/portfolio">
+          <Route path="/">
             <AboutMe />
           </Route>
         </Switch>
